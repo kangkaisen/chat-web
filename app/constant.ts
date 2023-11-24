@@ -84,7 +84,7 @@ You are ChatGPT, a large language model trained by OpenAI.
 Knowledge cutoff: {{cutoff}}
 Current model: {{model}}
 Current time: {{time}}
-Latex inline: $x^2$ 
+Latex inline: $x^2$
 Latex block: $$e=mc^2$$
 `;
 
@@ -99,19 +99,19 @@ export const KnowledgeCutOffDate: Record<string, string> = {
 export const DEFAULT_MODELS = [
   {
     name: "gpt-4",
-    available: true,
+    available: false,
   },
   {
     name: "gpt-4-0314",
-    available: true,
+    available: false,
   },
   {
     name: "gpt-4-0613",
-    available: true,
+    available: false,
   },
   {
     name: "gpt-4-32k",
-    available: true,
+    available: false,
   },
   {
     name: "gpt-4-32k-0314",
@@ -119,7 +119,7 @@ export const DEFAULT_MODELS = [
   },
   {
     name: "gpt-4-32k-0613",
-    available: true,
+    available: false,
   },
   {
     name: "gpt-4-1106-preview",
@@ -127,19 +127,19 @@ export const DEFAULT_MODELS = [
   },
   {
     name: "gpt-4-vision-preview",
-    available: true,
+    available: false,
   },
   {
     name: "gpt-3.5-turbo",
-    available: true,
+    available: false,
   },
   {
     name: "gpt-3.5-turbo-0301",
-    available: true,
+    available: false,
   },
   {
     name: "gpt-3.5-turbo-0613",
-    available: true,
+    available: false,
   },
   {
     name: "gpt-3.5-turbo-1106",
@@ -147,11 +147,11 @@ export const DEFAULT_MODELS = [
   },
   {
     name: "gpt-3.5-turbo-16k",
-    available: true,
+    available: false,
   },
   {
     name: "gpt-3.5-turbo-16k-0613",
-    available: true,
+    available: false,
   },
 ] as const;
 
