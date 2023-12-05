@@ -85,7 +85,7 @@ export async function requestOpenai(req: NextRequest) {
         return NextResponse.json(
           {
             error: true,
-            message: `you are not allowed to use ${jsonBody?.model} model`,
+            message: `请使用 gpt-4-1106-preview 和 gpt-3.5-turbo-1106 `,
           },
           {
             status: 403,
