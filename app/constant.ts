@@ -101,14 +101,14 @@ export const DEFAULT_MODELS = [
     name: "gpt-4-1106-preview",
     available: true,
   },
-  {
-    name: "gpt-4",
-    available: false,
-  },
-  {
-    name: "gpt-3.5-turbo",
-    available: false,
-  },
+  // {
+  //   name: "gpt-4",
+  //   available: false,
+  // },
+  // {
+  //   name: "gpt-3.5-turbo",
+  //   available: false,
+  // },
   {
     name: "gpt-3.5-turbo-1106",
     available: true,
